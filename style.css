@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
 body{
+    margin:0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: orange;
@@ -16,4 +20,28 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+   background-image: url("images/top-banner.png");
+   background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(90deg,salmon,orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 35px;
 }
